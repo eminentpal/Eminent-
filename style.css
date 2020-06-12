@@ -510,21 +510,24 @@ footer p:nth-child(2){
     transition: all ease 0.5s;
 }
 
+
 @media (max-width:1000px) {
    *{ box-sizing: border-box;
 
 
    }
 
-    
+    /* changes made here */
    .model {
-    height: 460px;
-    left: 90%;
-    transform: translateX(-90%);
+    height: 700px;
+    left: 100%;
+    transform: translateX(-100%);
    }
 
   .text-container{
     top: 46%;
+    margin-bottom: 50px;
+    
   }
 
    .text-container button {
