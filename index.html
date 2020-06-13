@@ -34,9 +34,11 @@
            <li> <a href="#">Contact us</a></li>
            <li> <a href="#">Team</a></li>
           </ul>
+             <!---Bars-->
+             <div  class="toggle"></div>
         </nav>
-        <!---Bars-->
-        <div  class="toggle"></div>
+       
+       
 
      <!-- Text-->
      <div class="text-container">
@@ -151,6 +153,19 @@
         <a href=""><i class="fab fa-instagram"></i></a>
         <a href=""><i class="fab fa-youtube"></i></a>
     </div>
+    
+    <!---Jquery--->
+     <script type="text/javascript" src="js/jquery.js"></script>
+   <script type="text/javascript">
+    $(document).ready(function() {
+      $(".toggle").click(function(){
+        $(".toggle").toggleClass("active")
+        $(".nav").toggleClass("active")
+
+    })
+
+    </script>
+    
 </body>
 
 </html>
