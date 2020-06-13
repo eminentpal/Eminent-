@@ -645,8 +645,7 @@ footer p:nth-child(2){
         justify-content: center;
         align-items: center;
         z-index: 1;
-        display:none;
-        
+        display: none ;
         
     }
     
@@ -663,10 +662,9 @@ footer p:nth-child(2){
     }
     
     nav ul li a:hover {
-        color: #121212;
+        color: #faf3f3;
     }
 
- 
   .toggle:before{
        content:"\f0c9";
        font-family: fontAwesome;
@@ -676,7 +674,7 @@ footer p:nth-child(2){
 
  
 
-  
+  }
 
   .toggle.active:before {
     content: "\f00d";
@@ -691,8 +689,6 @@ footer p:nth-child(2){
     nav.active ul{
         display: flex !important;
     }
-
-
 
 
 }
