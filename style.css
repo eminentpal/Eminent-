@@ -700,6 +700,36 @@ footer p:nth-child(2){
     align-items: center;
   }
 
+  .about-text {
+    width: 90%;
+    text-align: center;
+  }
+
+  .services-text{
+    width: 100%;
+
+  }
+   
+   .contact-me{
+    height: 180px;
+
+   }
+
+   .contact-me p{
+    font-size: 18px;
+
+   }
+     
+   .contact-me button{
+    width: 150px;
+    height: 33px;
+   }
+  
+  footer p:nth-child(2) {
+     width: 90%;
+  }
+   
+
 }
     
 
